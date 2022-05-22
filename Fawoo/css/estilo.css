@@ -17,6 +17,7 @@ body {
     margin: 0%;
     padding: 0;
     overflow-x: hidden;
+    display: block;
 }
 
 .logo {
@@ -248,4 +249,10 @@ p {
 .footer .copyright p a:hover {
     color: #000000;
     text-decoration: none;
+}
+
+.cartatorta {
+    background: url(../img/suhsiblue.png) left center no-repeat;
+    background-size: contain;
+    justify-content: center;
 }
