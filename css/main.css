@@ -22,6 +22,10 @@ h6 {
     color: #000000;
 }
 
+p {
+    font-size: 0.7em;
+}
+
 a {
     color: #000000;
     transition: .5s;
