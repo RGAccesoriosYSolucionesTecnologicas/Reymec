@@ -14,14 +14,10 @@ body {
     font-size: 14px;
     line-height: 1.7em;
     font-weight: 500;
-    margin: 0%;
-    padding: 0;
-    overflow-x: hidden;
-    display: block;
 }
 
 .logo {
-    width: 60%;
+    width: 50vw;
 }
 
 .head {
