@@ -8,10 +8,29 @@ body{
     background: rgb(26, 26, 26);
     font-family: 'Poppins', sans-serif;
     color: white;
-    height: 97vh;
+    height: 100vh;
     width: 100vw;
    
     overflow-y: hidden;;
+}
+.container{
+    width: 100vw;
+    min-height: 99vh;
+    display: grid;
+    grid-template-rows:1fr 2fr 1fr;
+   
+    background-image: url(img/sushidiablo.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.title img {
+    left : -45px;
+    top: -70px;
+    position: absolute;
 }
 img{
     width: 30%;
@@ -22,27 +41,7 @@ a{
     text-decoration: none;
     color: white;
 }
-.container{
-    width: 100%;
-    min-height: 100%;
-    display: grid;
-    grid-template-rows:1fr 2fr 1fr;
-    margin: 0 auto;
-    background-image: url(img/sushidiablo.png) ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: black;
-    background-position: center;
-    background-attachment: fixed;
-    opacity: 0.5;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: absolute;
 
-}
 
 .container .title{
     margin: 12vh auto 0 auto;
