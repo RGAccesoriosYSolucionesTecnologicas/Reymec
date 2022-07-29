@@ -136,6 +136,9 @@ footer{
         margin: 0 auto;
        
     }
+    .container .kotak .tautan:hover{
+        letter-spacing: 12px;
+    }
     footer{
         text-align: center;
         bottom: 10%;
