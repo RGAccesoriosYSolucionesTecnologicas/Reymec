@@ -6,11 +6,12 @@
 body{
     background: rgb(26, 26, 26);
     font-family: 'Poppins', sans-serif;
+    /* height: 110vh; */
     overflow-x: hidden;
     color: white;
 }
 img{
- 
+    width: 80%;
     float: left;
 }
 .container .kotak .ytb-logo{
@@ -28,22 +29,17 @@ a{
     color: white;
 }
 
-.container button{
-    width: 5pc;
-    margin-top: 5pc;
-    position: absolute;
-}
+
 .container .title{
     width: 15pc;
     height: 7pc;
-    margin: auto;
-    overflow: hidden;
+    margin:0 auto;
+   
 }
 .container .title h1{
     text-align: center;
     color: white;
-    text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
 }
 .container .title p{
     text-align: center;
@@ -51,7 +47,7 @@ a{
     text-transform: uppercase;
     margin-top: -20px;
     font-size: 0.8rem;
-    letter-spacing: 4px;
+    letter-spacing: 1vw;
 }
 .container .link{
     margin-top: 3.5pc;
@@ -152,24 +148,10 @@ footer{
         margin-left: 9pc;
         margin-top: -4.5pc;
     }
-    .container .kotak .tautan .ytb{
-        margin-top: 1pc;
-        margin-left: -4pc;
-    }
-    .container .kotak .tautan .dc{
-        margin-left: -3.7pc;
-    }
-    .container .kotak .ytb-logo{
-        width: 180%;
-        margin-left: -2pc;
-    }
-    .container .kotak .discord-logo{
-        width: 120%;
-        margin-top: -10px;
-    }
+    
     footer{
         text-align: center;
-        margin-top: 4pc;
+        
     }
 }
 
