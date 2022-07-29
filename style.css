@@ -8,6 +8,8 @@ body{
     background: rgb(26, 26, 26);
     font-family: 'Poppins', sans-serif;
     color: white;
+    background-image: url('img/suhsiblue.png') no-repeat center center fixed;
+ 
 }
 img{
     width: 80%;
@@ -18,39 +20,44 @@ a{
     text-decoration: none;
     color: white;
 }
+.container{
+    width: 100vw;
+    height: 90vh;
 
+}
 
 .container .title{
-    margin:0 auto;
-   
+    margin: 5vh auto 0 auto;
+
 }
 .container .title h1{
     text-align: center;
     color: white;
-    font-size: 2.3rem;
+    text-transform: uppercase;
+    font-size: 2.5rem;
 }
 .container .title p{
     text-align: center;
     color: white;
+    text-transform: uppercase;
     font-size: 0.8rem;
-    letter-spacing: 1vw;
+    letter-spacing: 4px;
 }
 .container .link{
     margin-top: 3.5pc;
 }
 .container .link .a{
-    /* border: 2px solid red; */
+
     width: 40pc;
-    margin: auto;
-    /* margin-top: 2pc; */
+    margin: 5vh auto;
 }
 .container .kotak{
     border: 2px solid rgb(24, 24, 24);
     background: rgb(24, 24, 24);
     width: 40pc;
     height: 4pc;
-    margin: auto;
-    margin-top: 2pc;
+    margin: 0 auto;
+    margin-top: 5vh;
     box-shadow: 5px 5px rgb(46, 46, 46);
     transition: 0.5s;
 }
@@ -122,22 +129,20 @@ footer{
         width: 60%;
     }
     .container .link .a{
-        margin-left: -8pc;
+        margin-left: -4pc;
     }
     .container .kotak{
-        width: 20pc;
-        height: 3pc;
+        width: 60%;
+        margin: 0 auto;
     }
     .container .kotak .tautan{
         width: 10pc;
         height: 4pc;
         margin-left: 9pc;
-        margin-top: -4.5pc;
     }
-    
     footer{
         text-align: center;
-        
+        bottom: 0;
     }
 }
 
