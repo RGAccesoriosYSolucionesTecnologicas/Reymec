@@ -12,7 +12,7 @@ body{
  
 }
 img{
-    width: 80%;
+    width: 60%;
     float: left;
 }
 
@@ -45,21 +45,20 @@ a{
 }
 .container .link{
     margin-top: 3.5pc;
+    width: 100%;
 }
 .container .link .a{
-
-    width: 40pc;
+    width: 100%;
     margin: 5vh auto;
 }
 .container .kotak{
     border: 2px solid rgb(24, 24, 24);
     background: rgb(24, 24, 24);
-    width: 40pc;
-    height: 4pc;
     margin: 0 auto;
     margin-top: 5vh;
     box-shadow: 5px 5px rgb(46, 46, 46);
     transition: 0.5s;
+    width: 80%;
 }
 .container .kotak:hover{
     border: 2px solid rgb(255, 255, 255);
@@ -79,11 +78,8 @@ a{
     transform: rotate(30deg);
 }
 .container .kotak .tautan{
-    width: 40pc;
-    height: 4.5pc;
+ 
     /* border: 2px solid red; */
-    margin-left: 0pc;
-    margin-top: -4pc;
     text-align: center;
     font-size: 1rem;
     letter-spacing: 5px;
@@ -91,15 +87,7 @@ a{
     font-weight: bolder;
     transition: 0.5s;
 }
-.container .kotak .tautan p{
-    margin-left: -4pc;
-}
-.container .kotak .tautan .ytb{
-    margin-left: -7pc;
-}
-.container .kotak .tautan .dc{
-    margin-left: -5.5pc;
-}
+
 .container .kotak .tautan:hover{
     letter-spacing: 20px;
 }
@@ -129,16 +117,18 @@ footer{
         width: 60%;
     }
     .container .link .a{
-        margin-left: -4pc;
+      margin: 0 0 0 5vw
     }
     .container .kotak{
-        width: 60%;
+        width: 80%;
+        height: 7vh;
         margin: 0 auto;
+        display: inline-block;
+
     }
     .container .kotak .tautan{
-        width: 10pc;
-        height: 4pc;
-        margin-left: 9pc;
+        margin: 0 auto;
+       
     }
     footer{
         text-align: center;
