@@ -21,7 +21,13 @@ $border-radius: 5px;
 
 
 /********** Custom CSS ************/
-h1,
+
+body {
+    --color1: rgb(255, 0, 0);
+--color2: rgba(255, 0, 0, 0.638);
+--color3: ;
+--color4: ;}
+h1,+
 h2,
 .font-weight-bold {
     font-weight: 700 !important;
