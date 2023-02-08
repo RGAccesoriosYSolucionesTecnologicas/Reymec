@@ -9823,7 +9823,7 @@ h6,
 .section-title::before {
   position: absolute;
   content: "";
-  top: -10px;
+  top: -25%;
   left: 0;
   width: 100px;
   height: 6px;
@@ -9837,7 +9837,7 @@ h6,
   left: 0;
   width: 100px;
   height: 1px;
-  background: black;
+ 
 }
 
 .section-title.text-center::before,
