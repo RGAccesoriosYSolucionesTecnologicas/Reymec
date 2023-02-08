@@ -6359,13 +6359,13 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #F195B2 !important;
+  background-color: var(--color1) !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #eb6891 !important;
+  background-color: var(--color1) !important;
 }
 
 .bg-secondary {
@@ -6487,7 +6487,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #F195B2 !important;
+  border-color: var(--color2) !important;
 }
 
 .border-secondary {
@@ -9533,7 +9533,7 @@ button.bg-dark:focus {
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: var(--color2) !important;
+  color: var(--color3) !important;
 }
 
 .text-secondary {
@@ -9541,7 +9541,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
-  color: var(--color4) !important;
+  color: var(--color2) !important;
 }
 
 .text-success {
@@ -9774,7 +9774,7 @@ h6,
   height: 50%;
   top: 0;
   left: 0;
-  background: #F195B2;
+  background: var(--color1);
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -9787,7 +9787,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #F195B2;
+  color: var(--color1);
 }
 
 @media (max-width: 991.98px) {
