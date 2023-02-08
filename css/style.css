@@ -9832,8 +9832,7 @@ h6,
 
 .section-title::after {
   position: absolute;
-
- 
+  content: "";
 }
 
 .section-title.text-center::before,
