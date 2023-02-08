@@ -15,7 +15,7 @@ $headings-color: $dark;
 
 $enable-responsive-font-sizes: true;
 
-$border-radius: 5px;
+$border-radius: 5px;\index.html
 
 @import "bootstrap/scss/bootstrap";
 
@@ -23,11 +23,11 @@ $border-radius: 5px;
 /********** Custom CSS ************/
 
 body {
-    --color1: rgb(255, 0, 0);
+--color1: rgb(255, 0, 0);
 --color2: rgba(255, 0, 0, 0.638);
---color3: ;
---color4: ;}
-h1,+
+--color3: rgb(0, 0, 0);
+--color4: rgba(0, 0, 0, 0.638);}
+h1,
 h2,
 .font-weight-bold {
     font-weight: 700 !important;
