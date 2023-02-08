@@ -2702,14 +2702,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary {
-  color: var(--color2);
-  border-color: var(--color1);
+  color: var(--color1);
+  border-color: var(--color2);
 }
 
 .btn-outline-secondary:hover {
   color: #212529;
-  background-color: var(--color2);
-  border-color:var(--color4);
+  background-color: red;
+  border-color:var(--color3);
 }
 
 .btn-outline-secondary:focus, .btn-outline-secondary.focus {
