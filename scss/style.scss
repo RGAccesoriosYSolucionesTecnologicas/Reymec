@@ -127,7 +127,7 @@ h6,
 }
 
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/header.jpg), no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/FB_IMG_1645798372530-removebg-preview.png), no-repeat center center;
     background-size: cover;
 }
 
@@ -458,5 +458,9 @@ h6,
 @media (max-width: 575.98px) {
     .footer .border-right {
         border-right: none !important;
+    }
+    #medioAmbiente {
+        margin-left: 2%;
+        margin-right: 2%;
     }
 }
