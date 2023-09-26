@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpkSlfNSBK7-JP7EGfUtPqbKd8u9f9TGc&libraries=places"></script>
+    <script src="js/reseñas.js" ></script>
 
 
     <!-- Font Awesome -->
@@ -28,7 +29,10 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body onload="initMap()">
+        <div id="map"></div>
+    
+      
     <!-- Topbar Start -->
     <div class="container-fluid bg-primary py-3 d-none d-md-block">
         <div class="container">
@@ -171,6 +175,7 @@
     </div>
     <!-- Carousel End -->
 
+    <div id="reviews"></div>
 
     <!-- About Start -->
     <div class="container-fluid py-0">
@@ -444,7 +449,7 @@
         <div class="container py-5">
             <div class="row">
                 <div class="col-lg-6">
-                    <h1 class="section-title position-relative mb-5">Equipo</h1>
+                    <h1 class="section-title position-relative mb-5">Equipo De Trabajo</h1>
                 </div>
                 <div class="col-lg-6 mb-5 mb-lg-0 pb-5 pb-lg-0"></div>
             </div>
@@ -461,6 +466,20 @@
                                 <div class="d-flex justify-content-center pt-1">
                                     <a class="btn btn-outline-secondary btn-social mr-2" href="https://wa.me/56965372315"><i class="fab fa-whatsapp"></i></a>
                                     <a class="btn btn-outline-secondary btn-social mr-2" href="https://facebook.com/100009387756512"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-item">
+                            <div class="team-img mx-auto">
+                                <img class="rounded-circle w-100 h-100" src="img/mae.jpg" style="object-fit: cover;">
+                            </div>
+                            <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
+                                <h3 class="font-weight-bold mt-5 mb-3 pt-5">Maria Eugenia Barrera Léon</h3>
+                                <h6 class="text-uppercase text-muted mb-4">Técnico en Electricidad y Automatización Industrial</h6>
+                                <div class="d-flex justify-content-center pt-1">
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
                                     <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
                                 </div>
                             </div>
@@ -485,7 +504,7 @@
                             </div>
                             <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
                                 <h3 class="font-weight-bold mt-5 mb-3 pt-5">Jonathan Gabriel Valenzula Peñaloza</h3>
-                                <h6 class="text-uppercase text-muted mb-4">	Técnico En Mecanica Automotriz</h6>
+                                <h6 class="text-uppercase text-muted mb-4">	Técnico En Mécanica Automotriz</h6>
                                 <div class="d-flex justify-content-center pt-1">
                                     <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
                                     <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -493,20 +512,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="team-item">
-                            <div class="team-img mx-auto">
-                                <img class="rounded-circle w-100 h-100" src="img/mae.jpg" style="object-fit: cover;">
-                            </div>
-                            <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
-                                <h3 class="font-weight-bold mt-5 mb-3 pt-5">Maria Eugenia Barrera Léon</h3>
-                                <h6 class="text-uppercase text-muted mb-4">Técnico en Mecánica y Electromovilidad Automotriz</h6>
-                                <div class="d-flex justify-content-center pt-1">
-                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
+                       
                     </div>
                 </div>
             </div>

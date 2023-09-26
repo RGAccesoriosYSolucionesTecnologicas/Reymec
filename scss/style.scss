@@ -17,6 +17,7 @@ $enable-responsive-font-sizes: true;
 
 $border-radius: 5px;\index.html
 
+
 @import "bootstrap/scss/bootstrap";
 
 
@@ -458,8 +459,5 @@ h6,
 @media (max-width: 575.98px) {
     .footer .border-right {
         border-right: none !important;
-    }
-    #medioAmbiente {
-    
     }
 }

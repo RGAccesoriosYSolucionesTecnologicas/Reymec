@@ -1,14 +1,14 @@
 <script>
   function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), {
-      center: { lat: TULATITUD, lng: TULONGITUD },
+      center: { lat: -37.32773264484421 , lng: -71.67973589358799 },
       zoom: 15,
     });
 
     const service = new google.maps.places.PlacesService(map);
     service.getDetails(
       {
-        placeId: TU_PLACE_ID, // Reemplaza con el ID de tu negocio en Google Places
+        placeId: ChIJ77WAZOEbbJYRtUClgr266yw, // Reemplaza con el ID de tu negocio en Google Places
       },
       (place, status) => {
         if (status === google.maps.places.PlacesServiceStatus.OK) {
